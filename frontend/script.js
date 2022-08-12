@@ -25,7 +25,7 @@ const bookCardComponent = (id, sub, title, text, button) => {
                 <h2>${title}</h2>
                 <p class="text">${text}</p>   
             </div>
-            <button><span>${button}</span><span class="material-icons-outlined">arrow_forward</span></button></button>
+            <button><span class="button-text">${button}</span><span class="material-icons-outlined">arrow_forward</span></button></button>
         </div>
     `;
 };

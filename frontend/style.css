@@ -7,3 +7,134 @@ body{
     background-color: #f8f7f3;
 }
 
+header {
+    width: 100%;
+    height: 40px;
+  
+    padding: 0 10px 0;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    z-index: 10;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    color: #f8f7f3;
+    background-color: #1a24fb;
+  }
+
+  h1 {
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  header .material-icons-outlined {
+    font-size: 24px;
+  }
+
+  .container {
+    max-width: 1280px;
+    width: 100%;
+  
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-top: 120px;
+    
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px 20px;
+  }
+
+  .card {
+    max-width: 350px;
+    width: 100%;
+    height: 400px;
+
+  
+    margin: 30px;
+    position: relative;
+    background-color: #f8f7f3;
+    color: #1a24fb;
+  }
+
+.details {
+    height: 420px;
+    border: 1px solid #1a24fb;
+    padding: 40px;
+}
+
+.book-id {
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  
+    text-align: center;
+    padding-top: 2px;
+  
+    font-family: 'Overpass', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a24fb;
+  }
+
+  h3 {
+    padding-bottom: 10px;
+
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    padding-bottom: 10px;
+
+    font-family: 'Overpass', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a24fb;
+  }
+
+  p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+
+  button {
+    width: 100%;
+    height: 18px;
+
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button-text {
+    font-size: 14px;
+  }
+
+  button .material-icons-outlined {
+    font-size: 18px;
+  }
+
+  button:hover{
+    color: #f8f7f3;
+
+    background-color: #1a24fb;
+}
